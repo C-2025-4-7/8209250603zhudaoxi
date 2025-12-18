@@ -5,7 +5,7 @@ int main(){
 	string line;
 	int englishchars = 0, spaces = 0, numbers = 0, others = 0;
 	cout << "please input string:" << endl;
-	getline(cin, line);  // ¶ÁÈ¡ÕûĞĞ£¬°üÀ¨¿Õ¸ñ
+	getline(cin, line);  // Â¶ÃÃˆÂ¡Ã•Ã»ÃÃÂ£Â¬Â°Ã¼Ã€Â¨Â¿Ã•Â¸Ã±
 		for (char c : line) {
 			if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
 				englishchars++;
