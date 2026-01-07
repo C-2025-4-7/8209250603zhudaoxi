@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Time{             
+	int hour;
+	int minute;
+	int sec;
+public:
+	void input(){
+	   	cin>>hour;    
+		cin>>minute;
+		cin>>sec;	
+	}
+	void output(){
+		cout<<hour<<"£º"<<minute<<"£º"<<sec<<endl;
+	}
+};
+int main(){
+	Time t1;
+   	t1.input();
+   	t1.output();
+	return 0;
+}
